@@ -15,7 +15,8 @@ add_message_files(DIRECTORY msg FILES
   JointControllerState.msg
   JointTolerance.msg
   JointTrajectoryControllerState.msg
-  PidState.msg)
+  PidState.msg
+  JointCommand.msg)
 
 add_service_files(DIRECTORY srv FILES
   QueryCalibrationState.srv
